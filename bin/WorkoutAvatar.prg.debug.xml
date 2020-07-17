@@ -160,9 +160,9 @@
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="48" lineNum="185" pc="268438916" symbol="onEnterSleep"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="48" lineNum="186" pc="268438920" symbol="onEnterSleep"/>
 <entry filename="Rez" id="54" lineNum="15" pc="268438944" symbol="WatchFace"/>
-<entry filename="Rez" id="54" lineNum="18" pc="268438956" symbol="WatchFace"/>
-<entry filename="Rez" id="54" lineNum="19" pc="268438980" symbol="WatchFace"/>
-<entry filename="Rez" id="54" lineNum="21" pc="268439161" symbol="WatchFace"/>
+<entry filename="Rez" id="54" lineNum="17" pc="268438956" symbol="WatchFace"/>
+<entry filename="Rez" id="54" lineNum="18" pc="268438980" symbol="WatchFace"/>
+<entry filename="Rez" id="54" lineNum="20" pc="268439143" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="45" method="true" symbol="getArray"/>
@@ -336,9 +336,9 @@
 <entry endPc="268438882" name="clockTime" stackId="2" startPc="268437574"/>
 <entry endPc="268438882" name="y" stackId="8" startPc="268437574"/>
 <entry endPc="268438883" name="dc" stackId="1" startPc="268437570"/>
-<entry endPc="268439188" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438956"/>
-<entry endPc="268439188" name="rez_cmp_local_custom_drawable_16765699861135545087" stackId="2" startPc="268438956"/>
-<entry endPc="268439189" name="dc" stackId="1" startPc="268438944"/>
+<entry endPc="268439170" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268438956"/>
+<entry endPc="268439170" name="rez_cmp_local_custom_drawable_11696178811198493209" stackId="2" startPc="268438956"/>
+<entry endPc="268439171" name="dc" stackId="1" startPc="268438944"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
