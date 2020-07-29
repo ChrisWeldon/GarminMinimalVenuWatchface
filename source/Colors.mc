@@ -1,10 +1,12 @@
 using Toybox.Lang as Lang;
 using Toybox.Math as Math; 
 using Toybox.Graphics as Graphics;
+using Toybox.System as Sys;
+using Toybox.Test as Test;
 
-module Design{
+module Colors{
 
-// HELP: How do I extend the number class properly so it is recognized as instance of number
+// HELP: How do I extend the number class properly so it is recognized as number
 // HELP: Contructor overloading?
 // HELP: Operator overloading?
 // HELP: Venu Watchface constraints
@@ -13,6 +15,9 @@ module Design{
 
 // TODO: Implement Dithering
 // TODO: Extend Number class and implement comparable methods
+// TODO: write assertions for parameters
+// TODO: write assertions for watch capabilities
+// TODO: Convert to monkey barrel
 
 
 class rgb extends Lang.Number{
@@ -30,7 +35,7 @@ class rgb extends Lang.Number{
     	self.b = (hex & 0x0000FF);
     	
     	self.hex = hex;
-	}
+	}	
 
 	function toString() {
 		return ("rgb(" + self.r + ", " + self.g + ", " + self.b + ")");
@@ -89,6 +94,18 @@ class rgb extends Lang.Number{
 			'b' => self.b		
 		};
 	}
+	
+	function add(c){
+		return new rgb(self.toNumber() + c.toNumber());
+	}
+	
+	function subtract(c){
+		return new rgb(self.toNumber() - c.toNumber());
+	}
+	
+	function copy(){
+		return new rgb(hex);
+	}
 }
 
 // Should be obsolete after constructor overloading...Whenever I figure out how to do that
@@ -96,6 +113,9 @@ function valsToRGB(r, g, b){
 	return new rgb(0x000000).setRGB(Math.round(r), Math.round(g), Math.round(b));
 }
 
+function randRGB(){
+	return new rgb(0xFFFFFF & Math.rand());
+}
 
 // TODO: fleshout constraints and asserts
 // TODO: dithering
@@ -144,7 +164,7 @@ class Gradient {
     		var r = (outer_vals['r']+r_step*i).toDouble();
 			var g = (outer_vals['g']+g_step*i).toDouble();
 			var b = (outer_vals['b']+b_step*i).toDouble();
-			self.grad[i] =  Design.valsToRGB(r, g, b);
+			self.grad[i] =  Colors.valsToRGB(r, g, b);
     	}
     	
 	}
@@ -183,6 +203,13 @@ class Gradient {
 	}
 	
 	function get(i){
+		// Allows for gradient shifting and looping
+		if(i>=scale){
+			i = i-scale;
+		}
+		if(i<0){
+			i = scale+i;
+		}
 		return grad[i];
 	}
 	
@@ -192,16 +219,80 @@ class Gradient {
 	
 }
 
-
-
-// TODO: Implement this after figuring out watchdog workarounds
-class GradientDither extends Design.Gradient{
+class Palette {
+	var keys = [];
+	var values = [];
 	
-	function initialize(outer, inner, w){
-		Gradient.initialize(outer, inner, w);
+	function initialize(array){
+		for(var i=0; i<array.size(); i++){
+			keys.add(array[i].keys()[0]);
+			values.add(array[i].values()[0]);
+		}
 	}
-
+	
+	function toString(){
+		var ret = "PALETTE: ";
+		for(var i=0; i<self.keys.size(); i++ ){
+			ret = ret + self.keys[i].toString() + "=>" + self.values[i].toString()  + (i<self.keys.size()-1 ? ", " : "") ;
+		}
+		
+		return ret;
+	}
+	
+	function getValues(){
+		return self.values;
+	}
+	
+	function getKeys(){
+		return self.keys;
+	}
+	
+	// TODO: fix to constant time implementation
+	function get(name){
+		for(var i=0; i<keys.size(); i++){
+			if(name.equals(keys[i])){
+				return values[i];
+			}
+		}
+		return null;
+	}
+	
+	function put(key, val){
+		self.keys.add(key);
+		self.values.add(val);
+	}
+	
 }
+
+
+function createPaletteFromHex(array){
+	var p = new Palette([]);
+	
+	for(var i=0; i<array.size(); i++ ){
+		p.put(array[i].keys()[0], new rgb(array[i].values()[0]));
+	}
+	
+	return p;
+	
+}
+
+function createGradientFromPalette(palette, widths, circular){
+
+ 	var colors = palette.getValues();
+	var grad = new Colors.Gradient(colors[0], colors[1], widths[0]);
+	
+	for(var i=1; i<colors.size()-1; i++){
+		grad.concat(new Colors.Gradient(colors[i], colors[i+1], widths[i]));
+	}
+	
+	if(circular){
+		grad.concat(new Colors.Gradient(colors[colors.size()-1], colors[0], widths[colors.size()-1]));
+	}
+	
+	return grad;
+	
+}
+
 
 function drawCurvedGradient(dc, x, y, r, gradient){
 	while(gradient.hasNext()) {
@@ -216,11 +307,5 @@ function drawCurvedGradientRA(dc, x, y, r, gradient){
 		dc.fillCircle(x, y, r-i+2);
 	}	
 }
-
-function drawVectorFieldGradient(){
-	// TODO
-}
-
-
 
 }
