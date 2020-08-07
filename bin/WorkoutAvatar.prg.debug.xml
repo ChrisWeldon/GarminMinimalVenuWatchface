@@ -244,9 +244,9 @@
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="34" pc="268442201" symbol="getZoneColors"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="44" pc="268442320" symbol="getZoneColors"/>
 <entry filename="Rez" id="67" lineNum="16" pc="268442324" symbol="WatchFace"/>
-<entry filename="Rez" id="67" lineNum="19" pc="268442336" symbol="WatchFace"/>
-<entry filename="Rez" id="67" lineNum="20" pc="268442360" symbol="WatchFace"/>
-<entry filename="Rez" id="67" lineNum="22" pc="268442541" symbol="WatchFace"/>
+<entry filename="Rez" id="67" lineNum="18" pc="268442336" symbol="WatchFace"/>
+<entry filename="Rez" id="67" lineNum="19" pc="268442360" symbol="WatchFace"/>
+<entry filename="Rez" id="67" lineNum="21" pc="268442523" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -473,9 +473,9 @@
 <entry endPc="268442128" name="dc" stackId="1" startPc="268439509"/>
 <entry endPc="268442323" name="HR_ZONES" stackId="2" startPc="268442201"/>
 <entry endPc="268442324" name="zones_array" stackId="1" startPc="268442189"/>
-<entry endPc="268442568" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268442336"/>
-<entry endPc="268442568" name="rez_cmp_local_custom_drawable_76113843674067049331" stackId="2" startPc="268442336"/>
-<entry endPc="268442569" name="dc" stackId="1" startPc="268442324"/>
+<entry endPc="268442550" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268442336"/>
+<entry endPc="268442550" name="rez_cmp_local_custom_drawable_19512809741642144530" stackId="2" startPc="268442336"/>
+<entry endPc="268442551" name="dc" stackId="1" startPc="268442324"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
