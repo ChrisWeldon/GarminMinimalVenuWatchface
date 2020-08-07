@@ -65,17 +65,17 @@ class WorkoutAvatarView extends Ui.WatchFace {
 	const day_palette = Colors.createPaletteFromHex([
 		{"0_midnight" => 0x191469 },
 		{"1_preastro" => 0x544eb4 },
-		{"2_sunup" => 0xb7ecff },
+		{"2_sunup" => 0xffc2b7 },
 		{"3_preday" => 0x00a3f2 },
 		{"4_midday" => 0x0081ff },
 		{"5_precivil" => 0x2a96ff },
-		{"6_sundown" => 0xb176ff },
+		{"6_sundown" => 0xff76a2 },
 		{"7_prenight" => 0x544eb4 },
 		
 	]);
 	
 	const sun_palette = Colors.createPaletteFromHex([
-		{"moonmid" => 0xdba7f9},
+		{"moonmid" => 0x41324a},
 		{"moonend" => 0xdba7f9},
 		{"sunstart" => 0xf3ff5e},
 		{"sunend" => 0xf3ff5e},
@@ -93,7 +93,7 @@ class WorkoutAvatarView extends Ui.WatchFace {
 		{"dominant" => new Colors.rgb(0x4281a4)},
 		{"accent0" => new Colors.rgb(0x9cafb7)},
 		{"accent1" => new Colors.rgb(0xead2ac)},
-		{"accent2" => new Colors.rgb(0xe6b89c)},
+		{"accent2" => new Colors.rgb(0x8a8b73)},
 		{"accent3" => new Colors.rgb(0xdadaca)},
 		{"standard-light" => new Colors.rgb(0xffffeb)},
 		{"standard-dark" => new Colors.rgb(0x495867)},
@@ -145,7 +145,7 @@ class WorkoutAvatarView extends Ui.WatchFace {
     function onLayout(dc) {
 		System.println("onLayout called");
 		  
-		self.sun_grad = Colors.createGradientFromPalette(sun_palette, [30, 2, 84, 2, 26], true);
+		self.sun_grad = Colors.createGradientFromPalette(sun_palette, [29, 4, 82, 4, 25], true);
 		self.battery_grad = Colors.createGradientFromPalette(battery_palette, [33, 33, 34], false);
 		self.bt_bitmap.setPalette([self.theme.get("standard-dark").toNumber(), -1]);  
 		  
@@ -246,9 +246,14 @@ class WorkoutAvatarView extends Ui.WatchFace {
 		// Use theme to help color the rest of the UI
 		dc.setColor(self.theme.get("standard-light").toNumber(), Gfx.COLOR_TRANSPARENT);
 		dc.drawText(dw/2,(dh/2)-(dc.getFontHeight(Gfx.FONT_SYSTEM_NUMBER_THAI_HOT)/2)-(dc.getFontHeight(Gfx.FONT_TINY)/2),Gfx.FONT_SYSTEM_NUMBER_THAI_HOT,hour.toString() + ":" + minute.toString(),Gfx.TEXT_JUSTIFY_CENTER);
-		  
-		dc.setColor(self.theme.get("accent3").toNumber(), Gfx.COLOR_TRANSPARENT);
-		dc.drawText(dw/2,(dh/2)+(dc.getFontHeight(Gfx.FONT_TINY)),Gfx.FONT_TINY, self.week[self.day_of_week.toNumber()] + ", " + self.month_str + " " + self.day ,Gfx.TEXT_JUSTIFY_CENTER);
+		
+		// Allow for better visibility of typeface during sunset and sunrise.
+		if((min_tot<48 && min_tot>27) || (min_tot<123 && min_tot>105)){
+			dc.setColor(self.theme.get("accent2").toNumber(), Gfx.COLOR_TRANSPARENT);
+		}else{
+			dc.setColor(self.theme.get("accent3").toNumber(), Gfx.COLOR_TRANSPARENT);
+		}
+		dc.drawText(dw/2,(dh/2)+(dc.getFontHeight(Gfx.FONT_TINY)),Gfx.FONT_TINY, self.week[self.day_of_week.toNumber()-1] + ", " + self.month_str + " " + self.day ,Gfx.TEXT_JUSTIFY_CENTER);
 		 
 		 
 		// Location of helper icons such as battery and bluetooth

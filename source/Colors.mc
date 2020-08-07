@@ -45,14 +45,14 @@ class rgb extends Lang.Number{
 	}
 	
 	/**
-	 * @returns (Toybox:Lang:Number)	a number representation of self
+	 * @returns (Toybox:Lang:Number)	a number representation of the instance
 	 */
 	function toNumber() {
 		return self.hex.toNumber();
 	}
 	
 	/**
-	 * @params val (Toybox:Lang:Number) to set Red to from [0, 255] inclusive
+	 * @params val (Toybox:Lang:Number)	set Red to from [0, 255] inclusive
 	 * @returns (Colors:rgb)		returns self
 	 */
 	function setR(val) {
@@ -63,7 +63,7 @@ class rgb extends Lang.Number{
 	}
 	
 	/**
-	 * @params val (Toybox:Lang:Number)	to set Green to from [0, 255] inclusive
+	 * @params val (Toybox:Lang:Number)	set Green to from [0, 255] inclusive
 	 * @returns (Colors:rgb)		returns self	
 	 */
 	function setG(val) {
@@ -74,7 +74,7 @@ class rgb extends Lang.Number{
 	}
 	
 	/**
-	 * @params val (Toybox:Lang:Number)	a Number to set Blue to from [0, 255] inclusive
+	 * @params val (Toybox:Lang:Number)	set Blue to from [0, 255] inclusive
 	 * @returns (Colors:rgb)		returns self
 	 */
 	function setB(val) {
@@ -159,8 +159,8 @@ class rgb extends Lang.Number{
  * A helper function to allow for creation of rgb object through individual r g b values
  *
  * @param r (Toybox:Lang:Number)	the value from [0, 255] inclusive for Red
- * @param r (Toybox:Lang:Number)	the value from [0, 255] inclusive for Green
- * @param r (Toybox:Lang:Number)	the value from [0, 255] inclusive for Blue
+ * @param g (Toybox:Lang:Number)	the value from [0, 255] inclusive for Green
+ * @param b (Toybox:Lang:Number)	the value from [0, 255] inclusive for Blue
  * @returns (Colors:rgb)	the	result color after creation
  */
 function valsToRGB(r, g, b){
@@ -245,7 +245,7 @@ class Gradient {
 	 * @returns (Colors:Gradient)	returns self
 	 */
 	function concat(gradient){
-		self.grad.addAll(gradient.getArray());
+		self.grad.addAll(gradient.toArray());
 		self.scale = self.scale + gradient.size();
 		return self;
 	}
@@ -309,7 +309,7 @@ class Gradient {
 		return grad[i];
 	}
 	
-	function getArray(){
+	function toArray(){
 		return self.grad;
 	}
 	
@@ -383,6 +383,7 @@ class Palette extends Lang.Array{
 	 * @returns (Colors:Palette)	self
 	 */
 	function put(key, val){
+		//TODO update existing values
 		self.keys.add(key);
 		self.values.add(val);
 		return self;
@@ -474,8 +475,8 @@ function drawCurvedGradientRA(dc, x, y, r, gradient){
  * A helper function to draw a rectangular gradient
  *
  * @param dc (Toybox:Graphics:Dc)	the device context
- * @param x (Toybox:Lang:Number)	the x coord for the center of the circular gradient center
- * @param y (Toybox:Lang:Number)	the y coord for the center of the cicular gradient center
+ * @param x (Toybox:Lang:Number)	the x coord for the upper left corner of the gradient
+ * @param y (Toybox:Lang:Number)	the y coord for the upper left corner of the gradient 
  * @param width (Toybox:Lang:Number)	width of the gradient
  * @param height (Toybox:Lang:Number)	height of the gradient
  * @param gradient (Colors:Gradient)	the gradient to draw

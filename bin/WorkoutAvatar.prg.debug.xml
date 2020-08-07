@@ -88,8 +88,8 @@
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="29" lineNum="306" pc="268436998" symbol="get"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="29" lineNum="307" pc="268437009" symbol="get"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="29" lineNum="309" pc="268437025" symbol="get"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="30" lineNum="312" pc="268437038" symbol="getArray"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="30" lineNum="313" pc="268437042" symbol="getArray"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="30" lineNum="312" pc="268437038" symbol="toArray"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="30" lineNum="313" pc="268437042" symbol="toArray"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="32" lineNum="332" pc="268437052" symbol="initialize"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="32" lineNum="333" pc="268437056" symbol="initialize"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="32" lineNum="334" pc="268437074" symbol="initialize"/>
@@ -110,40 +110,40 @@
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="36" lineNum="374" pc="268437428" symbol="get"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="36" lineNum="377" pc="268437456" symbol="get"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="385" pc="268437459" symbol="put"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="386" pc="268437463" symbol="put"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="387" pc="268437483" symbol="put"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="388" pc="268437503" symbol="put"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="403" pc="268437507" symbol="createPaletteFromHex"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="404" pc="268437519" symbol="createPaletteFromHex"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="406" pc="268437549" symbol="createPaletteFromHex"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="407" pc="268437573" symbol="createPaletteFromHex"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="410" pc="268437660" symbol="createPaletteFromHex"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="424" pc="268437664" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="426" pc="268437676" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="427" pc="268437689" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="429" pc="268437743" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="430" pc="268437773" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="433" pc="268437847" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="434" pc="268437852" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="437" pc="268437943" symbol="createGradientFromPalette"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="449" pc="268437947" symbol="drawCurvedGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="450" pc="268437959" symbol="drawCurvedGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="451" pc="268437973" symbol="drawCurvedGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="452" pc="268438017" symbol="drawCurvedGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="466" pc="268438057" symbol="drawCurvedGradientRA"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="467" pc="268438069" symbol="drawCurvedGradientRA"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="468" pc="268438093" symbol="drawCurvedGradientRA"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="469" pc="268438139" symbol="drawCurvedGradientRA"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="485" pc="268438180" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="486" pc="268438192" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="487" pc="268438197" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="488" pc="268438231" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="489" pc="268438255" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="490" pc="268438301" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="494" pc="268438362" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="495" pc="268438396" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="496" pc="268438420" symbol="drawRectGradient"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="497" pc="268438466" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="387" pc="268437463" symbol="put"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="388" pc="268437483" symbol="put"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="37" lineNum="389" pc="268437503" symbol="put"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="404" pc="268437507" symbol="createPaletteFromHex"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="405" pc="268437519" symbol="createPaletteFromHex"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="407" pc="268437549" symbol="createPaletteFromHex"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="408" pc="268437573" symbol="createPaletteFromHex"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="38" lineNum="411" pc="268437660" symbol="createPaletteFromHex"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="425" pc="268437664" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="427" pc="268437676" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="428" pc="268437689" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="430" pc="268437743" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="431" pc="268437773" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="434" pc="268437847" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="435" pc="268437852" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="39" lineNum="438" pc="268437943" symbol="createGradientFromPalette"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="450" pc="268437947" symbol="drawCurvedGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="451" pc="268437959" symbol="drawCurvedGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="452" pc="268437973" symbol="drawCurvedGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="40" lineNum="453" pc="268438017" symbol="drawCurvedGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="467" pc="268438057" symbol="drawCurvedGradientRA"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="468" pc="268438069" symbol="drawCurvedGradientRA"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="469" pc="268438093" symbol="drawCurvedGradientRA"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="41" lineNum="470" pc="268438139" symbol="drawCurvedGradientRA"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="486" pc="268438180" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="487" pc="268438192" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="488" pc="268438197" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="489" pc="268438231" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="490" pc="268438255" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="491" pc="268438301" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="495" pc="268438362" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="496" pc="268438396" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="497" pc="268438420" symbol="drawRectGradient"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/Colors.mc" id="42" lineNum="498" pc="268438466" symbol="drawRectGradient"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarApp.mc" id="44" lineNum="6" pc="268438525" symbol="initialize"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarApp.mc" id="44" lineNum="7" pc="268438529" symbol="initialize"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarApp.mc" id="45" lineNum="11" pc="268438548" symbol="onStart"/>
@@ -219,40 +219,42 @@
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="243" pc="268441001" symbol="onUpdate"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="247" pc="268441136" symbol="onUpdate"/>
 <entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="248" pc="268441191" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="250" pc="268441356" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="251" pc="268441411" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="255" pc="268441555" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="256" pc="268441577" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="258" pc="268441593" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="259" pc="268441604" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="260" pc="268441640" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="264" pc="268441653" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="265" pc="268441782" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="268" pc="268441823" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="269" pc="268441878" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="270" pc="268441895" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="271" pc="268441926" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="272" pc="268441969" symbol="onUpdate"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="57" lineNum="278" pc="268441987" symbol="onHide"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="58" lineNum="282" pc="268441992" symbol="onExitSleep"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="58" lineNum="283" pc="268441996" symbol="onExitSleep"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="59" lineNum="287" pc="268442020" symbol="onEnterSleep"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="59" lineNum="288" pc="268442024" symbol="onEnterSleep"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="33" pc="268442048" symbol="getZoneColors"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="34" pc="268442060" symbol="getZoneColors"/>
-<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="44" pc="268442179" symbol="getZoneColors"/>
-<entry filename="Rez" id="67" lineNum="16" pc="268442183" symbol="WatchFace"/>
-<entry filename="Rez" id="67" lineNum="19" pc="268442195" symbol="WatchFace"/>
-<entry filename="Rez" id="67" lineNum="20" pc="268442219" symbol="WatchFace"/>
-<entry filename="Rez" id="67" lineNum="22" pc="268442400" symbol="WatchFace"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="251" pc="268441356" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="252" pc="268441433" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="254" pc="268441491" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="256" pc="268441546" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="260" pc="268441696" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="261" pc="268441718" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="263" pc="268441734" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="264" pc="268441745" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="265" pc="268441781" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="269" pc="268441794" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="270" pc="268441923" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="273" pc="268441964" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="274" pc="268442019" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="275" pc="268442036" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="276" pc="268442067" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="56" lineNum="277" pc="268442110" symbol="onUpdate"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="57" lineNum="283" pc="268442128" symbol="onHide"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="58" lineNum="287" pc="268442133" symbol="onExitSleep"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="58" lineNum="288" pc="268442137" symbol="onExitSleep"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="59" lineNum="292" pc="268442161" symbol="onEnterSleep"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/WorkoutAvatarView.mc" id="59" lineNum="293" pc="268442165" symbol="onEnterSleep"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="33" pc="268442189" symbol="getZoneColors"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="34" pc="268442201" symbol="getZoneColors"/>
+<entry filename="/Users/chrisevans/Projects/Garmin_Connect_IQ_Challenge/WorkoutAvatar/source/HeartRateTarget.mc" id="61" lineNum="44" pc="268442320" symbol="getZoneColors"/>
+<entry filename="Rez" id="67" lineNum="16" pc="268442324" symbol="WatchFace"/>
+<entry filename="Rez" id="67" lineNum="18" pc="268442336" symbol="WatchFace"/>
+<entry filename="Rez" id="67" lineNum="19" pc="268442360" symbol="WatchFace"/>
+<entry filename="Rez" id="67" lineNum="21" pc="268442523" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
-<entry id="85" method="true" symbol="getArray"/>
 <entry id="8388639" module="true" symbol="Graphics"/>
 <entry field="true" id="47" symbol="battery_grad"/>
 <entry id="82" method="true" symbol="hasPrev"/>
 <entry id="57" method="true" symbol="drawCurvedGradientRA"/>
 <entry id="55" method="true" symbol="createGradientFromPalette"/>
+<entry id="85" method="true" symbol="toArray"/>
 <entry id="66" method="true" symbol="getR"/>
 <entry id="67" method="true" symbol="getG"/>
 <entry id="68" method="true" symbol="getB"/>
@@ -459,21 +461,21 @@
 <entry endPc="268438737" name="dc" stackId="1" startPc="268438667"/>
 <entry endPc="268438886" name="i" stackId="1" startPc="268438833"/>
 <entry endPc="268439504" name="dc" stackId="1" startPc="268439180"/>
-<entry endPc="268441986" name="ry" stackId="10" startPc="268439513"/>
-<entry endPc="268441986" name="rx" stackId="9" startPc="268439513"/>
-<entry endPc="268441986" name="date" stackId="3" startPc="268439513"/>
-<entry endPc="268441986" name="clockTime" stackId="2" startPc="268439513"/>
-<entry endPc="268441986" name="stats" stackId="4" startPc="268439513"/>
-<entry endPc="268441986" name="radius" stackId="8" startPc="268439513"/>
-<entry endPc="268441986" name="batteryRaw" stackId="5" startPc="268439513"/>
-<entry endPc="268441986" name="y" stackId="7" startPc="268439513"/>
-<entry endPc="268441986" name="x" stackId="6" startPc="268439513"/>
-<entry endPc="268441987" name="dc" stackId="1" startPc="268439509"/>
-<entry endPc="268442182" name="HR_ZONES" stackId="2" startPc="268442060"/>
-<entry endPc="268442183" name="zones_array" stackId="1" startPc="268442048"/>
-<entry endPc="268442427" name="rez_cmp_local_custom_drawable_21873450317834794115" stackId="2" startPc="268442195"/>
-<entry endPc="268442427" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268442195"/>
-<entry endPc="268442428" name="dc" stackId="1" startPc="268442183"/>
+<entry endPc="268442127" name="ry" stackId="10" startPc="268439513"/>
+<entry endPc="268442127" name="rx" stackId="9" startPc="268439513"/>
+<entry endPc="268442127" name="date" stackId="3" startPc="268439513"/>
+<entry endPc="268442127" name="clockTime" stackId="2" startPc="268439513"/>
+<entry endPc="268442127" name="stats" stackId="4" startPc="268439513"/>
+<entry endPc="268442127" name="radius" stackId="8" startPc="268439513"/>
+<entry endPc="268442127" name="batteryRaw" stackId="5" startPc="268439513"/>
+<entry endPc="268442127" name="y" stackId="7" startPc="268439513"/>
+<entry endPc="268442127" name="x" stackId="6" startPc="268439513"/>
+<entry endPc="268442128" name="dc" stackId="1" startPc="268439509"/>
+<entry endPc="268442323" name="HR_ZONES" stackId="2" startPc="268442201"/>
+<entry endPc="268442324" name="zones_array" stackId="1" startPc="268442189"/>
+<entry endPc="268442550" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268442336"/>
+<entry endPc="268442550" name="rez_cmp_local_custom_drawable_32263429242140489216" stackId="2" startPc="268442336"/>
+<entry endPc="268442551" name="dc" stackId="1" startPc="268442324"/>
 </localVars>
 <annotations/>
 <dataEntryOffsetMappings>
@@ -587,7 +589,7 @@
 <param id="i"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" name="getArray" parent="Gradient">
+<functionEntry accessMode="public" name="toArray" parent="Gradient">
 <documentation/>
 </functionEntry>
 <functionEntry accessMode="public" name="initialize" parent="Palette">
