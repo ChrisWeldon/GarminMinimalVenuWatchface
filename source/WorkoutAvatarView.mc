@@ -18,7 +18,6 @@ using Toybox.Activity as Activity;
 using Toybox.UserProfile as UserProfile;
 
 using Colors;
-using HeartRateTarget;
 
 // TODO get sunset sunrise
 // TODO calcuate day gradient based on sunset and sunrise
@@ -53,13 +52,13 @@ class WorkoutAvatarView extends Ui.WatchFace {
     
     
 	// Palette Defenitions
-	const hr_palette = Colors.createPaletteFromHex([
-		{"resting" => 0xffffff},
-		{"healthy" => 0x7bff82},
-		{"weight" => 0x7bb5ff},
-		{"aerobic" => 0xf5ff7b},
-		{"threshold" => 0xffcd7b},
-		{"redline" => 0xff7b7b}
+	const hr_palette = new Colors.Palette([
+		{"resting" => Colors.valsToRGB(255, 255, 255)}, // White
+		{"healthy" => Colors.valsToRGB(123, 255, 130)}, // Green
+		{"weight" => Colors.valsToRGB(123, 181, 255)}, // Blue
+		{"aerobic" => Colors.valsToRGB(245, 255, 123)}, // Yellow
+		{"threshold" => Colors.valsToRGB(255, 205, 123)}, // Orange
+		{"redline" => Colors.valsToRGB(255, 123, 123)} // Red
 	]);
 	
 	const day_palette = Colors.createPaletteFromHex([
@@ -151,7 +150,7 @@ class WorkoutAvatarView extends Ui.WatchFace {
 		  
 		  // w,h of canvas
 		dw = dc.getWidth();
-		dh = dc.getHeight();  
+		dh = dc.getHeight();
 	}
 
 
@@ -228,7 +227,7 @@ class WorkoutAvatarView extends Ui.WatchFace {
 		Colors.drawCurvedGradientRA(dc, x, y, radius, watch_grad);
 		
 		// Determine layout and color of heartrate
-		if(self.hr && self.hr >= self.hr_zones[0]){
+		if(self.hr && self.hr >= 40 ){
 		
 			// Colors of the heartrate typeface are determined by the users specific aerobic zones
 			if(self.hr-self.hr_zones[0] >= self.hr_grad.size()){
